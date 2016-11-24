@@ -164,7 +164,12 @@ a:visited {
 #diane-vu-card {
   background-image: url("../assets/img/diane-vu.jpg");
 }
-
+#NovenOo{
+  background-image: url("../assets/img/NovenOo.png");
+}
+#NovenO {
+  background-image: url("../assets/img/cover.jpg");
+}
 .view-profile-div {
   position: absolute;
   bottom: 0;
@@ -437,6 +442,36 @@ a:visited {
   }
 
   .details-block {
+    display: inline-block;
+    width: 33%;
+  }
+
+  .bio-block, .education-block, .experience-block {
+    position: relative;
+    vertical-align: top;
+  }
+
+  .content-holder {
+    width: 80%;
+    margin: 0 auto;
+  }
+
+}
+
+
+/* CLEARFIX HACK
+======================== */
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
     display: inline-block;
     width: 33%;
   }
